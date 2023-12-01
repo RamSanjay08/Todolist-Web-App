@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  outline: none;
+}
+
+html,body {
+  width: 100%;
+}
+
+nav {
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  padding-block: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* inputField */
+
+::placeholder {
+  font-size: 1rem;
+}
+
+.todoSection {
+  background-color: black;
+  color: whitesmoke;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  gap: 1.2rem;
+  padding: 2rem;
+  border-radius: .5rem;
+}
+
+.inputField  {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.inputField input{
+    padding: .5rem .6rem;
+    width: 60%;
+    border-radius: .2rem;
+}
+
+.inputField button {
+  background-color: rgb(3, 165, 3);
+  color: white;
+  font-size: 1rem;
+  border-radius: .2rem;
+  padding: 1rem;
+  cursor: pointer; 
+}
+
+/* Task */
+
+.tasks {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: .7rem;
+} 
+
+.tasks p {
+  background-color: aliceblue;
+  color: black;
+  padding: 1rem;
+  width: 55%;
+  border-radius: .2rem;
+  transform: translateX(-11%);
+  text-transform: capitalize;
+}
+
+.tasks button {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  font-size: 1rem;
+  border-radius: .2rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.add {
+  color: rgb(3, 165, 3);
+  font-weight: bold;
+  text-align: center;
+}
+
+.del {
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  text-align: center;
+}
+
+.uli li {
+  list-style-type: none;
+}
